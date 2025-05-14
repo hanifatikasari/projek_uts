@@ -381,7 +381,7 @@ footer {
 
 @media screen and (max-width: 768px) {
     nav {
-        flex-direction: row;
+        flex-direction: column; /*column=vertikal || row=horizontal*/
         align-items: flex-start;
         padding: 20px;
     }
@@ -474,7 +474,7 @@ footer {
     }
 
     footer .footer-container {
-        flex-direction: row;
+        flex-direction: column;
         align-items: left;
         gap: 20px;
         text-align: left;

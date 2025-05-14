@@ -197,7 +197,7 @@ footer {
 
 @media screen and (max-width: 768px) {
      nav {
-        flex-direction: row;
+        flex-direction: column;
         align-items: flex-start;
         padding: 20px;
     }
@@ -226,18 +226,19 @@ footer {
         padding-right: 0;
     }
 
-    .tentang-ilustrate{
-    width: 100%;
+    .tentang-ilustrate img{
+    max-width: 100%;
     justify-content: center;
-    height: auto;
+    width: 400px;
+    height: 300px;
     }
 
    .form-row {
-        flex-direction: column;
+        flex-direction: row; /*untuk 2 kolom sejajar horizontal*/
     }
     
     .footer-container {
-        flex-direction: row;
+        flex-direction: column;
         gap: 20px;
         text-align: center;
     }
